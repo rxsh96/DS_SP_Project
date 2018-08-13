@@ -1,5 +1,5 @@
-# DS_SP_Project #
-Proyecto Segundo Parcial de Diseño de Software
+# Diseño de Software #
+Proyecto Segundo Parcial de la materia Diseño de Software (CCPG1009) Paralelo 1 de la ESPOL.
 
 ### Integrantes ###
 * Jorge Paladines
