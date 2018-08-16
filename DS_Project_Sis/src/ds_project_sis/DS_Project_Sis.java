@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package ds_project_sis;
+import model.factory.*;
+import view.fachada.*;
 
 /**
  *
@@ -15,7 +17,8 @@ public class DS_Project_Sis {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        SystemFacade fachada = SystemFacade.getInstance();
+        
     }
     
 }

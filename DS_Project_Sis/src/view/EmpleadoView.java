@@ -1,6 +1,7 @@
 package view;
 
 import java.util.*;
+import view.fachada.SystemFacade;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -14,6 +15,19 @@ public class EmpleadoView implements IView {
      * Default constructor
      */
     public EmpleadoView() {
+        
+    }
+
+    @Override
+    public SystemFacade volver() {
+        return SystemFacade.getInstance();
+    }
+    
+    @Override
+    public void mostrarOpciones() {
+        System.out.println("---Vista Empleado---");
+        String a = sc.nextLine();
+        volver();
     }
 
 }

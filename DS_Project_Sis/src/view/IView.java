@@ -1,6 +1,7 @@
 package view;
 
 import java.util.*;
+import view.fachada.SystemFacade;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -9,5 +10,8 @@ import java.util.*;
  * @author rxsh96
  */
 public interface IView {
-
+    Scanner sc = new Scanner(System.in);
+    
+    public void mostrarOpciones();
+    public SystemFacade volver();
 }

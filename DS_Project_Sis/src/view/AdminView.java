@@ -1,6 +1,7 @@
 package view;
 
 import java.util.*;
+import view.fachada.SystemFacade;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -15,5 +16,19 @@ public class AdminView implements IView {
      */
     public AdminView() {
     }
+    
+    @Override
+    public SystemFacade volver() {
+        return SystemFacade.getInstance();
+    }
+
+    @Override
+    public void mostrarOpciones() {
+        System.out.println("---Vista Admin---");
+        String a = sc.nextLine();
+        volver();
+    }
+
+    
 
 }

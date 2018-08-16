@@ -3,39 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/CreatorReporteCliente.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/observer/Notificante.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/strategy/IPago.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/articulo/Articulo.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/ClienteReporte.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/cocina/CocinaABuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/decorator/EmpleadoDecorator.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/refrigeradora/RefrigeradoraBuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/CreatorReporteArticulo.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/persona/Admin.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/persona/Empleado.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/lavadora/LavadoraCBuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/ArticuloReporte.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/persona/Persona.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/strategy/FormaPago.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/lavadora/LavadoraDirector.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/entidad/persona/Cliente.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/ds_project_sis/DS_Project_Sis.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/chainOfResponsibility/IAtencion.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/CreatorReporteVendedor.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/strategy/Visa.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/lavadora/LavadoraABuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/lavadora/LavadoraBBuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/lavadora/LavadoraBuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/Creator.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/decorator/EmpleadoInterface.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/controller/singleton/DBConector.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/refrigeradora/RefrigeradoraABuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/controller/singleton/Busqueda.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/refrigeradora/RefrigeradoraBBuilder.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/factory/VendedorReporte.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/builder/cocina/CocinaDirector.java</file>
-            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_Project_Sis/src/model/strategy/Efectivo.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/fachada/SystemFacade.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/ds_project_sis/DS_Project_Sis.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/SuperAdminView.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/EmpleadoView.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/AdminView.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/GerenteView.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/IView.java</file>
+            <file>file:/C:/Users/ASUS/Documents/ESPOL%206to%20Semestre/Diseño%20de%20Software/2do%20Parcial/DS_SP_Project/DS_Project_Sis/src/view/ClienteView.java</file>
         </group>
     </open-files>
 </project-private>
