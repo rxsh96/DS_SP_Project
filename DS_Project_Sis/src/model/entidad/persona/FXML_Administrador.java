@@ -1,0 +1,104 @@
+
+package model.entidad.persona;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
+import model.entidad.observer.Notificante;
+
+public class FXML_Administrador extends Persona implements Initializable, IAdmin, Notificante {
+    
+    @FXML private Button regresar;
+    @FXML private Button productos;
+    @FXML private Button ventas;
+    
+    @FXML
+    private void accionProductos(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/FXML_Productos.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
+    }
+    
+    @FXML
+    private void accionVentas(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/fachada/FXML_LogIn.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
+    }
+    
+    @FXML private void accionRegresar(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/fachada/FXML_LogIn.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
+    }
+     
+    
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
+
+    @Override
+    public void crearProducto() {
+
+    }
+
+    @Override
+    public void consultarProducto() {
+
+    }
+
+    @Override
+    public void actualizarProducto() {
+
+    }
+
+    @Override
+    public void emilinarProducto() {
+
+    }
+
+    @Override
+    public void crearVenta() {
+
+    }
+
+    @Override
+    public void consultarVenta() {
+
+    }
+
+    @Override
+    public void actualizarVenta() {
+
+    }
+
+    @Override
+    public void emilinarVenta() {
+
+    }
+
+    @Override
+    public void notificarPeticion() {
+
+    }
+    
+}

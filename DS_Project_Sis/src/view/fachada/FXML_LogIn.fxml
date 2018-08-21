@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.fachada.FXML_LogInController">
+   <content>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #9B9391;">
+         <children>
+            <AnchorPane prefHeight="153.0" prefWidth="600.0" style="-fx-background-color: #000000;" />
+            <Pane layoutX="165.0" layoutY="60.0" prefHeight="280.0" prefWidth="270.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <TextField id="user" fx:id="user" layoutX="61.0" layoutY="115.0" promptText="User" />
+                  <PasswordField id="pass" fx:id="pass" layoutX="61.0" layoutY="152.0" promptText="Password" />
+                  <Button id="ingresar_login" fx:id="ingresar_login" layoutX="106.0" layoutY="212.0" mnemonicParsing="false" onAction="#accionIngresar" text="Ingresar" />
+                  <Text layoutX="66.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log In">
+                     <font>
+                        <Font name="System Bold" size="47.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
