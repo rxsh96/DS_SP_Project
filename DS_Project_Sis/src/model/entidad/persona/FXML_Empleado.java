@@ -1,5 +1,5 @@
 
-package controller.system;
+package model.entidad.persona;
 
 import java.io.IOException;
 import java.net.URL;
@@ -13,8 +13,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import model.chainOfResponsibility.IAtencion;
+import model.decorator.EmpleadoInterface;
+import model.entidad.observer.Notificante;
+import model.strategy.FormaPago;
 
-public class FXML_VendedorController implements Initializable {
+public class FXML_Empleado implements Initializable, EmpleadoInterface, IAtencion {
 
     @FXML private Button regresar;
     @FXML private Button productos;
@@ -71,5 +75,74 @@ public class FXML_VendedorController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    
+    
+    protected FXML_Empleado empleado;
+    private Notificante notificante;
+    private FormaPago formaPago;
+
+
+    public void consultarProducto() {
+        // TODO implement here
+    }
+
+    public void consultarCliente() {
+
+    }
+
+    public void crearCliente() {
+
+    }
+
+    public void vender() {
+        // TODO implement here
+
+    }
+
+    public void realizarProforma() {
+
+    }
+
+    public void editarDatosFactura() {
+
+    }
+
+    public void editarVenta() {
+
+    }
+
+    /**
+     * @param atencion 
+     * @return
+     */
+
+
+    /**
+     * @param empleado
+     */
+    @Override
+    public void atender(FXML_Empleado empleado) {
+        // TODO implement here
+
+    }
+
+    public void notificarPeticion() {
+        // TODO implement here
+    }
+
+    @Override
+    public void solicitarPermiso() {
+
+    }
+
+    @Override
+    public void setNext(IAtencion atencion) {
+
+    }
+
+    @Override
+    public IAtencion getNext() {
+        return null;
+    }
     
 }

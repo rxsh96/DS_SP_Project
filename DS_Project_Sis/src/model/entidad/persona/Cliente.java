@@ -1,13 +1,5 @@
 package model.entidad.persona;
 
-import java.util.*;
-
-/**
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- * @author rxsh96
- */
 public class Cliente extends Persona {
 
     /**
@@ -52,7 +44,6 @@ public class Cliente extends Persona {
 
     /**
      * @param direccion 
-     * @return
      */
     public void setDireccion(String direccion) {
         // TODO implement here
@@ -68,7 +59,6 @@ public class Cliente extends Persona {
 
     /**
      * @param telefono 
-     * @return
      */
     public void setTelefono(String telefono) {
         

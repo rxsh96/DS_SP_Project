@@ -1,7 +1,7 @@
 package model.factory;
 
 import java.util.*;
-import model.entidad.persona.Empleado;
+import model.entidad.persona.FXML_Empleado;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -25,7 +25,7 @@ public class VendedorReporte implements Reporte {
     /**
      * 
      */
-    private Empleado vendedor;
+    private FXML_Empleado vendedor;
 
     /**
      * 

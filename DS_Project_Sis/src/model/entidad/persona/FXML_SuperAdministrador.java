@@ -1,127 +1,130 @@
+
 package model.entidad.persona;
 
-import java.util.*;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.stage.Stage;
 
-/**
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- * @author rxsh96
- */
-public class FXML_SuperAdministrador extends Persona implements ISuperAdmin {
-
-    /**
-     * Default constructor
-     */
-    public FXML_SuperAdministrador() {
+public class FXML_superAdministrador extends Persona implements Initializable, ISuperAdmin {
+    
+    @FXML private Button regresar;
+    @FXML private Button productos;
+    @FXML private Button ventas;
+    @FXML private Button usuarios;
+    
+    @FXML private void accionProductos(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/FXML_Productos.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
     }
-
-    /**
-     * @param nombre
-     */
-    public FXML_SuperAdministrador(String nombre) {
-        // TODO implement here
+    
+    @FXML private void accionVentas(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/fachada/FXML_LogIn.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
     }
-
-    /**
-     * @return
-     */
-    public void crearProducto() {
-        // TODO implement here
+    
+    @FXML private void accionUsuarios(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/fachada/FXML_LogIn.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
     }
-
-    /**
-     * @return
-     */
-    public void consultarProducto() {
+    
+    @FXML private void accionRegresar(ActionEvent event) throws IOException{
+        Parent homepParent = FXMLLoader.load(getClass().getResource("/view/fachada/FXML_LogIn.fxml"));
+        Scene scene =new Scene(homepParent);
+        Stage mainstage=(Stage) ((Node)event.getSource()).getScene().getWindow();
+        mainstage.hide();
+        mainstage.setScene(scene);
+        mainstage.show();
     }
+    
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
 
-    /**
-     * @return
-     */
-    public void actualizarProducto() {
-        // TODO implement here
-
-    }
-
-    /**
-     * @return
-     */
-    public void emilinarProducto() {
-        // TODO implement here
-
-    }
-
-    /**
-     * @return
-     */
-    public void crearVenta() {
-        // TODO implement here
-
-    }
-
-    /**
-     * @return
-     */
-    public void consultarVenta() {
-        // TODO implement here
-
-    }
-
-    /**
-     * @return
-     */
-    public void actualizarVenta() {
-        // TODO implement here
-
-    }
-
-    /**
-     * @return
-     */
-    public void emilinarVenta() {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
+    @Override
     public void crearUsuario() {
-        // TODO implement here
 
     }
 
-    /**
-     * @return
-     */
+    @Override
     public void consultarUsuario() {
-        // TODO implement here
 
     }
 
-    /**
-     * @return
-     */
+    @Override
     public void actualizarUsuario() {
-        // TODO implement here
 
     }
 
-    /**
-     * @return
-     */
+    @Override
     public void emilinarUsuario() {
-        // TODO implement here
 
     }
 
-    /**
-     * @param empleado 
-     * @return
-     */
+    @Override
     public void otorgarPermiso(Persona empleado) {
-        // TODO implement here
 
     }
 
+    @Override
+    public void crearProducto() {
+
+    }
+
+    @Override
+    public void consultarProducto() {
+
+    }
+
+    @Override
+    public void actualizarProducto() {
+
+    }
+
+    @Override
+    public void emilinarProducto() {
+
+    }
+
+    @Override
+    public void crearVenta() {
+
+    }
+
+    @Override
+    public void consultarVenta() {
+
+    }
+
+    @Override
+    public void actualizarVenta() {
+
+    }
+
+    @Override
+    public void emilinarVenta() {
+
+    }
+    
 }

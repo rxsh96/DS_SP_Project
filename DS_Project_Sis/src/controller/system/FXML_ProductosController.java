@@ -4,7 +4,6 @@ package controller.system;
 import controller.singleton.ConexionDB;
 import java.io.IOException;
 import java.net.URL;
-import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -1,7 +1,7 @@
 package model.chainOfResponsibility;
 
 import java.util.*;
-import model.entidad.persona.Empleado;
+import model.entidad.persona.FXML_Empleado;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -26,6 +26,6 @@ public interface IAtencion {
      * @param empleado 
      * @return
      */
-    public void atender(Empleado empleado);
+    public void atender(FXML_Empleado empleado);
 
 }

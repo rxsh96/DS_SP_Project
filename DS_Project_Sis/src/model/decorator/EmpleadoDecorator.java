@@ -1,7 +1,7 @@
 package model.decorator;
 
 import java.util.*;
-import model.entidad.persona.Empleado;
+import model.entidad.persona.FXML_Empleado;
 
 /**
  * To change this license header, choose License Headers in Project Properties.
@@ -26,7 +26,7 @@ public abstract class EmpleadoDecorator implements EmpleadoInterface {
     /**
      * @param empleado
      */
-    public void EmpleadoDecorator(Empleado empleado) {
+    public void EmpleadoDecorator(FXML_Empleado empleado) {
         // TODO implement here
     }
 
