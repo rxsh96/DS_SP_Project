@@ -1,67 +1,46 @@
+/**
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package model.entidad.persona;
 
+/**
+ *
+ * @author rxsh96
+ */
 public class Cliente extends Persona {
 
-    /**
-     * Default constructor
-     */
+    private String direccion;
+    private String telefono;
+    
     public Cliente() {
     }
 
-    /**
-     * 
-     */
-    private String direccion;
-
-    /**
-     * 
-     */
-    private String telefono;
-
-    /**
-     * @param nombre
-     */
-    public void Cliente(String nombre) {
-        // TODO implement here
+    public Cliente(String cedula) {
+        super(cedula);
     }
-
-    /**
-     * @param nombre 
-     * @param direccion 
-     * @param telefono
-     */
-    public void Cliente(String nombre, String direccion, String telefono) {
-        // TODO implement here
+    
+    public Cliente(String cedula, String nombre, String apellido, int edad, String direccion, String telefono){
+        super(cedula, nombre, apellido, edad);
+        this.direccion = direccion;
+        this.telefono = telefono;
     }
-
-    /**
-     * @return
-     */
+    
     public String getDireccion() {
-        // TODO implement here
-        return "";
+        return this.direccion;
     }
 
-    /**
-     * @param direccion 
-     */
     public void setDireccion(String direccion) {
-        // TODO implement here
+        this.direccion = direccion;
     }
 
-    /**
-     * @return
-     */
     public String getTelefono() {
-        // TODO implement here
-        return "";
+        return this.telefono;
     }
 
-    /**
-     * @param telefono 
-     */
     public void setTelefono(String telefono) {
-        
+        this.telefono = telefono;
     }
 
 }
